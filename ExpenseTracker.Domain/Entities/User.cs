@@ -13,7 +13,6 @@ namespace ExpenseTracker.Domain.Entities
         public string PasswordHash { get; set; } = string.Empty;
         public bool IsActive { get; set; }
         public DateTime CreatedDate { get; set; }
-
         public List<Expense> Expenses { get; set; } = new();
     }
 }
