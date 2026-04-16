@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseTracker.Domain\ExpenseTracker.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Category\DTOs\" />
+    <Folder Include="Expense\DTOs\" />
+    <Folder Include="User\Commands\" />
+    <Folder Include="User\DTOs\" />
+    <Folder Include="User\Handlers\" />
+  </ItemGroup>
+
 </Project>
