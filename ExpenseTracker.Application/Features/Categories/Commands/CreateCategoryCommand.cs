@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExpenseTracker.Application.Category.Commands
+namespace ExpenseTracker.Application.Features.Categories.Commands
 {
     internal class CreateCategoryCommand
     {

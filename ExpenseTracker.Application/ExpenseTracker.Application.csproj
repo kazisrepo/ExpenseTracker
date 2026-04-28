@@ -7,15 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExpenseTracker.Domain\ExpenseTracker.Domain.csproj" />
+    <Folder Include="Features\Categories\Queries\" />
+    <Folder Include="Features\User\Commands\" />
+    <Folder Include="Features\User\Queries\" />
+    <Folder Include="Features\User\Handlers\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Category\DTOs\" />
-    <Folder Include="Expense\DTOs\" />
-    <Folder Include="User\Commands\" />
-    <Folder Include="User\DTOs\" />
-    <Folder Include="User\Handlers\" />
+    <ProjectReference Include="..\ExpenseTracker.Domain\ExpenseTracker.Domain.csproj" />
   </ItemGroup>
 
 </Project>

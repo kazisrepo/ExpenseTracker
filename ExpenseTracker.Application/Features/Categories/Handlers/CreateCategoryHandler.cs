@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExpenseTracker.Application.Category.Handlers
+namespace ExpenseTracker.Application.Features.Categories.Handlers
 {
     internal class CreateCategoryHandler
     {
