@@ -8,9 +8,9 @@
 
   <ItemGroup>
     <Folder Include="Features\Categories\Queries\" />
-    <Folder Include="Features\User\Commands\" />
-    <Folder Include="Features\User\Queries\" />
-    <Folder Include="Features\User\Handlers\" />
+    <Folder Include="Features\Users\Commands\" />
+    <Folder Include="Features\Users\Queries\" />
+    <Folder Include="Features\Users\Handlers\" />
   </ItemGroup>
 
   <ItemGroup>

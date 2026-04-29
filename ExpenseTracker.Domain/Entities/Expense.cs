@@ -5,9 +5,8 @@ using System.Text;
 
 namespace ExpenseTracker.Domain.Entities
 {
-    public class Expense
+    public class Expense : BaseEntity
     {
-        public int ExpenseId { get; set; }
         public decimal Amount { get; set; }
         public string? Description { get; set; } 
         public TaxDeductibilityStatus TaxStatus { get; set; }
@@ -15,7 +14,6 @@ namespace ExpenseTracker.Domain.Entities
         public User User { get; set; } = null!;
         public int CategoryId { get; set; }
         public Category Category { get; set; } = null!;
-        public DateTime CreatedDate { get; set; }
 
     }
 }
