@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExpenseTracker.Domain.Entities
+namespace ExpenseTracker.Application.Features.Categories.Commands
 {
-    public class Category : BaseEntity
+    public class UpdateCategoryCommand
     {
+        public int CategoryId { get; set; }
         public string CategoryName { get; set; } = null!;
         public bool IsActive { get; set; }
     }

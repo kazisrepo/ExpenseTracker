@@ -7,6 +7,6 @@ namespace ExpenseTracker.Application.Interfaces
 {
     public interface ICategoryRepository : IGenericRepository<Category>
     {
-        //
+        // specific to this class
     }
 }

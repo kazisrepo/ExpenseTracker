@@ -30,7 +30,7 @@ namespace ExpenseTracker.Application.Features.Expenses.Handlers
             expense.UserId = request.UserId;
             expense.CategoryId = request.CategoryId;
 
-            await _expenseRepository.Edit(expense);
+            await _expenseRepository.Update(expense);
         }
 
     }
